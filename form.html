@@ -55,6 +55,76 @@
 
 </select>
     </fieldset>
+  <h1 align="center">Asset Request Form</h1>
+  </form>
+
+  <form action="" method="post">
+    <table>
+      <tr>
+        <td colspan="2">Name</td>
+      </tr>
+      <tr>
+        <td><input type="text" id="first" name="first"></td>
+        <td><input type="text" id="last" name="last"></td>
+      </tr>
+      <tr>
+        <td><label for="first">First</label></td>
+        <td><label for="last">Last</label></td>
+      </tr>
+      <br>
+      <tr>
+        <td colspan="2"><label for="eid">Employee id</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" id="eid" name="eid"></td>
+      </tr>
+      <br>
+      <tr>
+        <td colspan="2"><label for="mail">Email</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="email" id="mail" name="mail"></td>
+      </tr>
+      <br>
+      <tr>
+        <td colspan="2"><label for="dept">Department</label></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="text" id="dept" name="dept"></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <h4>Issue</h4>
+    <input type="checkbox" id="as_req" name="issue">
+    <label for="as_req">New Asset Request</label>
+    <br>
+    <input type="checkbox" id="replace" name="issue">
+    <label for="replace">Replacement for broken/faulty devices</label>
+    <br>
+    <input type="checkbox" id="lost" name="issue">
+    <label for="lost">Replacement for lost devices</label>
+    <br>
+    <input type="checkbox" id="other" name="issue">
+    <label for="other">Other Reason</label>
+    <br>
+    <br>
+    <h4>Asset Required</h4>
+    <input type="checkbox" id="lap" name="as_reqd">
+    <label for="lap">Laptop</label>
+    <br>
+    <input type="checkbox" id="desktop" name="as_reqd">
+    <label for="desktop">Desktop</label>
+    <br>
+    <input type="checkbox" id="keyboard" name="as_reqd">
+    <label for="keyboard">Wireless Keyboard</label>
+    <br>
+    <input type="checkbox" id="mouse" name="as_reqd">
+    <label for="mouse">Wireless Mouse</label>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
   </form>
 </body>
 </html>
+
