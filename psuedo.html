@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    button:hover {
+      background-color: blue;
+      color: white;
+
+    }
+    a:active{
+      color:red;
+    }
+    input:focus{
+      border: 2px solid black;
+    }
+    p:first-child{
+      color:red;
+    }
+    p:last-child{
+      color:green;
+    }
+    p:nth-child(2){
+      color:blue
+    }
+    p:nth-child(4){
+      color:yellow
+    }
+    p:nth-child(odd){
+      background-color: aqua;
+    }
+    p:nth-child(even){
+      background-color:darkblue;
+    }
+    p::first-letter{
+      color: rosybrown;
+    }
+    h1::first-line{
+      color:aqua
+    }
+    h3::after{
+      content: icon;
+    }
+    h3::before{
+      content: icon;
+    }
+    input[type]{
+      border:2px solid blue
+    }
+    input[type="text"]{
+      border:2px solid blue
+    }
+  </style>
+</head>
+<body>
+ <h1>Psuedo Class</h1>
+  <button>Register</button>
+  <br>
+  <a href="www.google.com">Google</a>
+  <br>
+  <input type="text" placeholder="Enter your name">
+  <div>
+    <p>Apple</p>
+    <p>Bannana</p>
+    <p>Orange</p>
+    <p>Orange</p>
+    <p>Strawberry</p>
+    <p>Grape</p>
+  </div>
+  <h1>Psuedo Elements</h1>
+  <p>Hello World</p>
+  <i class="fa-solid fa-house"></i>
+  <h3>My Skills</h3>
+  <input type="text" placeholder="name">
+</body>
+</html>
