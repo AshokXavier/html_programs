@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin:0;
+    }
+    .top{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(17, 108, 130);
+    }
+    .left{
+      display: flex;
+      gap:80px;
+    }
+
+    .hero {
+    position: relative;
+    height:1000px;
+}
+
+    .nav{
+      position:relative;
+      z-index: 2;
+      background-color:rgb(231, 229, 229);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      opacity: 70%;
+    }
+    .link ul{
+      display: flex;
+      gap:30px;
+      padding: 0;
+      list-style: none;
+      font-size: large;
+      font-weight: 500;
+    }
+    .purchase button{
+      font-size:18px;
+      border-radius: 25px;
+      border: 2px solid rgb(17, 108, 130);
+      color: white;
+      background-color: rgb(17, 108, 130);
+      padding:10px 30px;
+      
+    }
+    .image{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width:100%;
+      height:100%;
+      background-image: url("work1_img2.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .text {
+          position: absolute;
+          left: 260px;
+          top: 200px;
+          font-size: xx-large;
+          z-index: 3;
+      }
+
+    .read{
+       font-size:18px;
+      border-radius: 8px;
+      border: 2px solid rgb(84, 113, 165);
+      color: white;
+      background-color:rgb(17, 108, 130);
+      padding:10px 30px;
+    }
+    .contact{
+       font-size:18px;
+      border-radius: 8px;
+      border: 2px solid rgb(243, 210, 24);
+      color: rgb(3, 0, 0);
+      background-color: rgb(243, 210, 24);
+      padding:10px 30px;
+    }
+
+    .text h2{
+      color:rgb(17, 108, 130);
+      font-size:75px;
+      font-weight: bold;
+    }
+    .text p{
+      color:rgb(3, 92, 114);
+    }
+      </style>
+</head>
+<body>
+
+  <div class="top">
+
+    <div class="left">
+      <h4>1010 Avenue,New York,NY 10018 US.</h4>
+      <h4>212 386 5575,212 386 6676</h4>
+    </div>
+
+    <div class="right">
+      <h4>Mon-Sat, 8.00-18.00, Sunday CLOSED</h4>
+    </div>
+
+  </div>
+
+  <div class="hero">
+
+    <div class="nav">
+
+      <div class="link">
+        <ul>
+          <a href="" style="color:rgb(17, 108, 130)">Home</a>
+          <a href="" style="color:rgb(17, 108, 130)">Pages</a>
+          <a href="" style="color:rgb(17, 108, 130)">News</a>
+          <a href="" style="color:rgb(17, 108, 130)">Elements</a>
+          <a href="" style="color:rgb(17, 108, 130)">Contact</a>
+          <a href="" style="color:rgb(17, 108, 130)">Docs</a>
+        </ul>
+      </div>
+
+      <div class="purchase">
+        <button onclick="">Purchase</button>
+      </div>
+
+    </div>
+
+      <div class="image">
+      </div>
+
+          <div class="text">
+        <h2>Growth Partners</h2>
+        <p>Connect with top consultants hand-picked by<br> Elixir consulting and finance</p>
+        <br>
+        <button class="read">Read more ></button>
+        <button class="Contact">Contact US ></button>
+
+      </div>
+    </div>
+
+
+</body>
+</html>
